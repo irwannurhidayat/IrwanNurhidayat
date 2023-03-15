@@ -1,5 +1,6 @@
 package com.example.irwannurhidayat;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -23,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
         Button login = (Button) findViewById(R.id.loginbtn);
 
+
         //admin and admin
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View v) {
                 if(username.getText().toString().equals("irwan") && password.getText().toString().equals("irwan")) {
                 //correct
