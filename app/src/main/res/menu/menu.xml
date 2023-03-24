@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Menu">
+    <item
+        android:id="@+id/etMenuUsername"
+        android:title="@string/menuusername"
+        />
+    <item
+        android:id="@+id/etMenuUser"
+        android:title="@string/menuuser"
+        />
+    <item
+        android:id="@+id/actionLogout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+</menu>

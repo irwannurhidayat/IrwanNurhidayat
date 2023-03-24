@@ -7,19 +7,19 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\irwan\.android\avd\Resizable_Experimental_API_33.avd" />
+            <value value="C:\Users\irwan\.android\avd\New_Device_1_API_UpsideDownCake.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-03-15T18:09:05.025385700Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-03-21T23:15:28.211692900Z" />
     <targetsSelectedWithDialog>
       <Target>
         <type value="QUICK_BOOT_TARGET" />
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\irwan\.android\avd\Resizable_Experimental_API_33.avd" />
+            <value value="C:\Users\irwan\.android\avd\New_Device_1_API_UpsideDownCake.avd" />
           </Key>
         </deviceKey>
       </Target>

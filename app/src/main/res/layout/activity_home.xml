@@ -34,40 +34,45 @@
                 tools:layout_editor_absoluteX="43dp"
                 android:gravity="center_horizontal" />
 
-            <ImageView
-                android:id="@+id/imageViewp1"
-                android:layout_width="100dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="32dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txtnama"
-                app:srcCompat="@drawable/p1" />
 
             <TextView
-                android:id="@+id/txtnama"
+                android:id="@+id/etMainUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
-                android:text="irwan"
+                android:layout_marginTop="48dp"
+                android:text="Username"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.878"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txthome" />
 
-            <Button
-                android:id="@+id/buttonexit"
+            <TextView
+                android:id="@+id/etMainname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:outlineSpotShadowColor="@color/design_default_color_error"
-                android:outlineAmbientShadowColor="@color/design_default_color_error"
-                android:text="Exit"
-                android:textAllCaps="false"
+                android:layout_marginTop="28dp"
+                android:text="Name"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.84"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etMainUsername" />
+
+            <TextView
+                android:id="@+id/tvObject1"
+                android:layout_width="400dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="64dp"
+                android:gravity="center"
+                android:text="FENOMENA KEMACETAN JAKARTA PADA KARYA SENI GRAFIS CETAK SARING"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageViewp1" />
+                app:layout_constraintTop_toBottomOf="@+id/etMainname" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
